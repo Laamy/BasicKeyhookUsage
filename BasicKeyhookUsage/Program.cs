@@ -44,7 +44,7 @@ namespace BasicKeyhookUsage
             {
                 if (e.key == Keys.C) // If CKey has just been pressed this code here will trigger
                 {
-                    MCM.writeFloat(fieldOfViewAddr, 0.2f); // tell game to zoom in
+                    MCM.writeFloat(fieldOfViewAddr, 0.1f); // tell game to zoom in
                 }
             }
             if (e.vkey == VKeyCodes.KeyUp) // Keyup
